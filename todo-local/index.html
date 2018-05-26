@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+    <title>My Todo</title>
+</head>
+
+<body>
+    <div class="container">
+        <p id="title">My Todo</p>
+        <input class="textbox" type="text" name="affair" placeholder="Please input your business">
+        <ul class="tab">
+            <li id="tabwork" onclick="working()">
+                未完成
+            </li>
+            <li id="tabdone" onclick="done()">
+                已完成
+            </li>
+        </ul>
+        <div class="list">
+            <div class="list-working"></div>
+            <div class="list-done"></div>
+        </div>
+
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
