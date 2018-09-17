@@ -1,0 +1,35 @@
+.container {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 10px 17px 9px 0px #717171;
+    border: 1px solid #cdcdcd;
+    display: flex;
+    align-items: center;
+}
+
+.container span {
+    width: 70px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 125px;
+    color: #262626;
+}
+
+.container span:first-child {
+    margin-left: 10px;
+}
+
+.container .dot {
+    width: 70px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 120px;
+    text-align: center;
+    line-height: 120px;
+}
